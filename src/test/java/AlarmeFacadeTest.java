@@ -25,7 +25,7 @@ class AlarmeFacadeTest {
 
     @Test
     void deveAdicionarUmAlarme(){
-        Condicao condicao = new Humidade();
+        Condicao condicao = new Umidade();
         Alarme novoAlarme = new Alarme();
         novoAlarme.setCondicao(condicao);
         alarmeFacade.addAlarme(novoAlarme);

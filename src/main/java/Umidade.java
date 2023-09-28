@@ -1,4 +1,4 @@
-public class Humidade implements Condicao{
+public class Umidade implements Condicao{
 
 
     @Override
