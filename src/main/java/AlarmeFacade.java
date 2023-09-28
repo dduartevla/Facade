@@ -23,19 +23,19 @@ public class AlarmeFacade {
         return alarmesDisparados;
     }
 
-    public List<String> resolverAlarme(int alarme){
+    public String resolverAlarme(int alarme){
         //naão vem errado, tem uma interface, nela o usuario clica no alarme e o numero vem certo
-        List<String> alarmesResolvidos = new ArrayList<>();
-        alarmesResolvidos.add(alarmesAtivos.get(alarme).resolverAlarme());
+        String alarmeResolvido;
+        alarmeResolvido = alarmesAtivos.get(alarme).resolverAlarme();
         this.alarmesResolvidos.add(alarmesAtivos.get(alarme));
         alarmesAtivos.remove(alarme);
-        return alarmesResolvidos;
+        return alarmeResolvido;
     }
 
     public boolean existemAlarmesAtivos(){
-        boolean temAtivos = false;
+        boolean temAtivos = true;
         if (alarmesAtivos.isEmpty()){
-            temAtivos = true;
+            temAtivos = false;
         }
         return temAtivos;
     }

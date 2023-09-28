@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a355db-2fe8-49da-822a-e267e13ba926" name="Changes" comment="Construção das Classes Alarme e Alarmefacade.">
+    <list default="true" id="d3a355db-2fe8-49da-822a-e267e13ba926" name="Changes" comment="Faz as classes que implementam Condicao">
+      <change afterPath="$PROJECT_DIR$/src/test/java/AlarmeFacadeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AlarmeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FalhasDispositivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FalhasDispositivos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Humidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Humidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlarmeFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlarmeFacade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -45,6 +48,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -53,6 +58,75 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AlarmeFacadeTest.retornarTemAlarmesAtivosFalso">
+    <configuration name="AlarmeFacadeTest.deveAdicionarUmAlarme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Facade" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AlarmeFacadeTest" />
+      <option name="METHOD_NAME" value="deveAdicionarUmAlarme" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlarmeFacadeTest.deveDispararAlarmesAtivos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Facade" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AlarmeFacadeTest" />
+      <option name="METHOD_NAME" value="deveDispararAlarmesAtivos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlarmeFacadeTest.deveResolverAlarme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Facade" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AlarmeFacadeTest" />
+      <option name="METHOD_NAME" value="deveResolverAlarme" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlarmeFacadeTest.retornarTemAlarmesAtivosFalso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Facade" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AlarmeFacadeTest" />
+      <option name="METHOD_NAME" value="retornarTemAlarmesAtivosFalso" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlarmeTest.deveRetornarCondicaoInvalida" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Facade" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AlarmeTest" />
+      <option name="METHOD_NAME" value="deveRetornarCondicaoInvalida" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AlarmeFacadeTest.retornarTemAlarmesAtivosFalso" />
+        <item itemvalue="JUnit.AlarmeFacadeTest.deveResolverAlarme" />
+        <item itemvalue="JUnit.AlarmeFacadeTest.deveDispararAlarmesAtivos" />
+        <item itemvalue="JUnit.AlarmeFacadeTest.deveAdicionarUmAlarme" />
+        <item itemvalue="JUnit.AlarmeTest.deveRetornarCondicaoInvalida" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695826750870</updated>
-      <workItem from="1695826751212" duration="8020000" />
+      <workItem from="1695826751212" duration="12179000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial já com as classes que acredito que vou precisar.">
       <option name="closed" value="true" />
@@ -79,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695856536274</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Faz as classes que implementam Condicao">
+      <option name="closed" value="true" />
+      <created>1695860679005</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695860679005</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +171,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit inicial já com as classes que acredito que vou precisar." />
     <MESSAGE value="Construção das Classes Alarme e Alarmefacade." />
-    <option name="LAST_COMMIT_MESSAGE" value="Construção das Classes Alarme e Alarmefacade." />
+    <MESSAGE value="Faz as classes que implementam Condicao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Faz as classes que implementam Condicao" />
   </component>
 </project>
