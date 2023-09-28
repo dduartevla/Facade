@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a355db-2fe8-49da-822a-e267e13ba926" name="Changes" comment="Commit inicial já com as classes que acredito que vou precisar.">
+    <list default="true" id="d3a355db-2fe8-49da-822a-e267e13ba926" name="Changes" comment="Construção das Classes Alarme e Alarmefacade.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Alarme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Alarme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AlarmeFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlarmeFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Condicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Condicao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FalhasDispositivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FalhasDispositivos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Humidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Humidade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695826750870</updated>
-      <workItem from="1695826751212" duration="5825000" />
+      <workItem from="1695826751212" duration="8020000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial já com as classes que acredito que vou precisar.">
       <option name="closed" value="true" />
@@ -73,7 +71,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695830627336</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Construção das Classes Alarme e Alarmefacade.">
+      <option name="closed" value="true" />
+      <created>1695856536274</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695856536274</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +88,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit inicial já com as classes que acredito que vou precisar." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial já com as classes que acredito que vou precisar." />
+    <MESSAGE value="Construção das Classes Alarme e Alarmefacade." />
+    <option name="LAST_COMMIT_MESSAGE" value="Construção das Classes Alarme e Alarmefacade." />
   </component>
 </project>
